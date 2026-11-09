@@ -1,0 +1,31 @@
+*{
+   margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+  background-color: rgb(43, 43, 148);  
+}
+
+#player-1 { 
+    position: absolute; 
+    top: 350px;   
+    width: 840px;
+    height: auto;  
+}
+#player-2 {
+    position: absolute; 
+    margin-top: 120px; 
+    margin-left: 250px; 
+    width: 240px;
+    height: auto;
+}
+#player-1 img, #player-2 img {
+     width: 100%;
+    height: auto;
+}
+
+#player-2 {
+    display: none;
+}
