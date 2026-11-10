@@ -4,21 +4,23 @@
     overflow: hidden;
 }
 
-body{
-  background-color: rgb(43, 43, 148);  
-}
+body .fundo img{
+max-width: 100%;
 
+height: auto; 
+}
+ 
 #player-1 { 
     position: absolute; 
-    top: 350px;   
-    width: 840px;
+    width: 740px;
+    margin-top: 410px;
     height: auto;  
 }
 #player-2 {
     position: absolute; 
-    margin-top: 120px; 
+    margin-top: 500px; 
     margin-left: 250px; 
-    width: 240px;
+    width: 220px;
     height: auto;
 }
 #player-1 img, #player-2 img {
@@ -27,5 +29,17 @@ body{
 }
 
 #player-2 {
+    display: none;
+}
+
+#animacao-1 {
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+
+#animacao-1 img {
+    position: absolute;
+    width: 150px;
     display: none;
 }
